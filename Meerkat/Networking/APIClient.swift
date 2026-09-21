@@ -42,18 +42,24 @@ actor APIClient {
     /// ISO8601DateFormatter only copes with millisecond fractions, so trim to 3 digits first.
     static let decoder: JSONDecoder = {
         let d = JSONDecoder()
-        let frac = ISO8601DateFormatter()
-        frac.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        let plain = ISO8601DateFormatter()
-        plain.formatOptions = [.withInternetDateTime]
         d.dateDecodingStrategy = .custom { decoder in
             let raw = try decoder.singleValueContainer().decode(String.self)
             let trimmed = raw.replacingOccurrences(of: #"(\.\d{3})\d+"#, with: "$1", options: .regularExpression)
-            if let date = frac.date(from: trimmed) ?? plain.date(from: trimmed) { return date }
+            if let date = APIClient.parseDate(trimmed) { return date }
             throw DecodingError.dataCorrupted(.init(codingPath: decoder.codingPath, debugDescription: "Bad date: \(raw)"))
         }
         return d
     }()
+
+    /// ISO8601DateFormatter isn't Sendable, so build them per call rather than capturing.
+    private static func parseDate(_ s: String) -> Date? {
+        let frac = ISO8601DateFormatter()
+        frac.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        if let d = frac.date(from: s) { return d }
+        let plain = ISO8601DateFormatter()
+        plain.formatOptions = [.withInternetDateTime]
+        return plain.date(from: s)
+    }
 
     static let encoder: JSONEncoder = {
         let e = JSONEncoder()
