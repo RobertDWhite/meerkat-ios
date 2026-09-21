@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C244C8617F842C8E5DF792 /* ContactEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8ED4141AC876E3F21EE55C /* ContactEditView.swift */; };
+		1EB1925BECBFE6905398F286 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ADEA40D08573F85C69CCFA /* RootView.swift */; };
+		2D0CA033792356AD6959C525 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94759325B78C9419DD2405 /* Timeline.swift */; };
+		4F5F74F6FE9959AAA1AA04D8 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005443344EBF23AA4034E50 /* Keychain.swift */; };
+		5CA5E33BE62C010FFCA7BB0D /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B7D45B32B9D3E4A3FD52CF /* AvatarView.swift */; };
+		5FB9404E0028CEBDE98A270D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC7F5A2AB70B5C19015DABB /* AppState.swift */; };
+		71D63EC7CD49150BFE468B92 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E86AB16E28FCF14AE07457 /* Contact.swift */; };
+		98C14A96348A4B8D4B2C61F7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883A66930A74C4C69EA4CC1 /* APIClient.swift */; };
+		ADEF020EEF92D254DF5397EB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B174579C01FC9ABEACC3986 /* SettingsView.swift */; };
+		B1CFD9348E45177F6003D2B8 /* MeerkatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10DE7B772669FE8F7D57C /* MeerkatApp.swift */; };
+		C4C4E7B497A1C5528DE79261 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D59B04D5C0B6299A21742 /* Helpers.swift */; };
+		D540EE9C3352FD83987B3641 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468352B60E202E1704DF8BE9 /* ContactDetailView.swift */; };
+		E336B22BFB513A264798DB44 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52F95017838EFAB4059F94 /* ContactListView.swift */; };
+		EA4A62663DA7409D6A2D9C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE69D2C181425CD8AFCEA3 /* Assets.xcassets */; };
+		EACDB922055FE0D79A65F023 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6F716B04458CDA75FFCAB4 /* RemindersView.swift */; };
+		F8CE3F95A2DC92FFF9A091C1 /* TimelineEditors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6043D2BA6933522D89DACE /* TimelineEditors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08ADEA40D08573F85C69CCFA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1883A66930A74C4C69EA4CC1 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		2005443344EBF23AA4034E50 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		20B7D45B32B9D3E4A3FD52CF /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		3B94759325B78C9419DD2405 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		3E8ED4141AC876E3F21EE55C /* ContactEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditView.swift; sourceTree = "<group>"; };
+		468352B60E202E1704DF8BE9 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		5CF2B9F915708B82A866A055 /* Meerkat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Meerkat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4CCA7F2D55AAAD6EF78E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6C4D59B04D5C0B6299A21742 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		6E6F716B04458CDA75FFCAB4 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		97E86AB16E28FCF14AE07457 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		9B174579C01FC9ABEACC3986 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A7E10DE7B772669FE8F7D57C /* MeerkatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeerkatApp.swift; sourceTree = "<group>"; };
+		AC6043D2BA6933522D89DACE /* TimelineEditors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineEditors.swift; sourceTree = "<group>"; };
+		C8DE69D2C181425CD8AFCEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF52F95017838EFAB4059F94 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		FCC7F5A2AB70B5C19015DABB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		183D51FE555F7133717DA6D2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9B174579C01FC9ABEACC3986 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		39D0BFBA01E204F5604EABC5 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				468352B60E202E1704DF8BE9 /* ContactDetailView.swift */,
+				3E8ED4141AC876E3F21EE55C /* ContactEditView.swift */,
+				CF52F95017838EFAB4059F94 /* ContactListView.swift */,
+				AC6043D2BA6933522D89DACE /* TimelineEditors.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		464D224EDE36AA465CBC58CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08ADEA40D08573F85C69CCFA /* RootView.swift */,
+				4D18417CC71E2BB34DC34F6E /* Components */,
+				39D0BFBA01E204F5604EABC5 /* Contacts */,
+				630180F017CAAFBFFF07D7A9 /* Reminders */,
+				183D51FE555F7133717DA6D2 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D18417CC71E2BB34DC34F6E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20B7D45B32B9D3E4A3FD52CF /* AvatarView.swift */,
+				6C4D59B04D5C0B6299A21742 /* Helpers.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		630180F017CAAFBFFF07D7A9 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				6E6F716B04458CDA75FFCAB4 /* RemindersView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		87F3A7C14A77A27DA6E52E1B = {
+			isa = PBXGroup;
+			children = (
+				9041AD7D98760BFD3FF5AFF9 /* Meerkat */,
+				FBDFA1E20862870038F45E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9041AD7D98760BFD3FF5AFF9 /* Meerkat */ = {
+			isa = PBXGroup;
+			children = (
+				FCC7F5A2AB70B5C19015DABB /* AppState.swift */,
+				5D4CCA7F2D55AAAD6EF78E2C /* Info.plist */,
+				A7E10DE7B772669FE8F7D57C /* MeerkatApp.swift */,
+				B71E177462255B4C1AA79703 /* Models */,
+				DD65FFBF28940436520AC429 /* Networking */,
+				9661A189011CEDF3BB0E1881 /* Resources */,
+				464D224EDE36AA465CBC58CA /* Views */,
+			);
+			path = Meerkat;
+			sourceTree = "<group>";
+		};
+		9661A189011CEDF3BB0E1881 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE69D2C181425CD8AFCEA3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B71E177462255B4C1AA79703 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97E86AB16E28FCF14AE07457 /* Contact.swift */,
+				3B94759325B78C9419DD2405 /* Timeline.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD65FFBF28940436520AC429 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1883A66930A74C4C69EA4CC1 /* APIClient.swift */,
+				2005443344EBF23AA4034E50 /* Keychain.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FBDFA1E20862870038F45E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2B9F915708B82A866A055 /* Meerkat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E984F19000481AF75BE41E7 /* Meerkat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F54AF10F160B2487513605 /* Build configuration list for PBXNativeTarget "Meerkat" */;
+			buildPhases = (
+				1490DC173C37E7798C995E5D /* Sources */,
+				EB359F71E8CAF6A77DC78A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meerkat;
+			packageProductDependencies = (
+			);
+			productName = Meerkat;
+			productReference = 5CF2B9F915708B82A866A055 /* Meerkat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D9C22B9553870E1C981ED1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2E984F19000481AF75BE41E7 = {
+						DevelopmentTeam = AD2VN8P4JY;
+					};
+				};
+			};
+			buildConfigurationList = 16A35531818D3E68A797C55F /* Build configuration list for PBXProject "Meerkat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 87F3A7C14A77A27DA6E52E1B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBDFA1E20862870038F45E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E984F19000481AF75BE41E7 /* Meerkat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB359F71E8CAF6A77DC78A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4A62663DA7409D6A2D9C31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1490DC173C37E7798C995E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C14A96348A4B8D4B2C61F7 /* APIClient.swift in Sources */,
+				5FB9404E0028CEBDE98A270D /* AppState.swift in Sources */,
+				5CA5E33BE62C010FFCA7BB0D /* AvatarView.swift in Sources */,
+				71D63EC7CD49150BFE468B92 /* Contact.swift in Sources */,
+				D540EE9C3352FD83987B3641 /* ContactDetailView.swift in Sources */,
+				17C244C8617F842C8E5DF792 /* ContactEditView.swift in Sources */,
+				E336B22BFB513A264798DB44 /* ContactListView.swift in Sources */,
+				C4C4E7B497A1C5528DE79261 /* Helpers.swift in Sources */,
+				4F5F74F6FE9959AAA1AA04D8 /* Keychain.swift in Sources */,
+				B1CFD9348E45177F6003D2B8 /* MeerkatApp.swift in Sources */,
+				EACDB922055FE0D79A65F023 /* RemindersView.swift in Sources */,
+				1EB1925BECBFE6905398F286 /* RootView.swift in Sources */,
+				ADEF020EEF92D254DF5397EB /* SettingsView.swift in Sources */,
+				2D0CA033792356AD6959C525 /* Timeline.swift in Sources */,
+				F8CE3F95A2DC92FFF9A091C1 /* TimelineEditors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03BC05C8D1969612652AD59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1A74084915978C4F3679B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AD2VN8P4JY;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Meerkat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.white.meerkat;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEE98FD45E0490150F148E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE695E78DA2F51BE78DC31FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AD2VN8P4JY;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Meerkat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.white.meerkat;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A35531818D3E68A797C55F /* Build configuration list for PBXProject "Meerkat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE98FD45E0490150F148E34 /* Debug */,
+				03BC05C8D1969612652AD59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72F54AF10F160B2487513605 /* Build configuration list for PBXNativeTarget "Meerkat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A74084915978C4F3679B93F /* Debug */,
+				EE695E78DA2F51BE78DC31FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D9C22B9553870E1C981ED1D /* Project object */;
+}
